@@ -112,7 +112,7 @@ main {
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .footer-notes {
@@ -155,4 +155,17 @@ footer {
     justify-content: right;
     margin-top: 10px;
     text-align: right;
+}
+
+.swal2-close:focus {
+    box-shadow: none;
+}
+
+.swal2-title{
+    color: #26c2a3;
+}
+
+.swal2-html-container{
+    font-style: italic;
+    line-height: 1.75 !important;
 }
