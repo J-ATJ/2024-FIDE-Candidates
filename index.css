@@ -161,11 +161,31 @@ footer {
     box-shadow: none;
 }
 
-.swal2-title{
+.swal2-title {
     color: #26c2a3;
 }
 
-.swal2-html-container{
+.swal2-html-container {
     font-style: italic;
     line-height: 1.75 !important;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff10;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff55;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
 }
